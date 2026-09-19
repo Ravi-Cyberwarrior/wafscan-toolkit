@@ -1,0 +1,2 @@
+# No third-party Python packages required.
+# Everything uses the standard library + the `curl` binary on PATH.
