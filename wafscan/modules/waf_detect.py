@@ -110,6 +110,7 @@ def run(
         "payloads_tested": len(TEST_PAYLOADS),
         "payloads_that_looked_blocked": triggered,
         "confidence": confidence,
+        "serverity" : "info",
         "waf_candidates": [{"name": n, "score": s} for n, s in detected],
         "block_examples": block_examples,
         "issue": "WAF/CDN fingerprinting results",
