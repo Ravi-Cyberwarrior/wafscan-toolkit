@@ -16,7 +16,7 @@ def summarize(all_findings: Dict[str, Any]) -> Dict[str, Any]:
                     k in i for k in ("issue", "test", "path", "param", "method")
                 ):
                     total += 1
-                    conf = i.get("confidence", "medium")
+                    conf = i.get("severity", i.get(confidence", "medium"))
                     if conf == "high":
                         high += 1
                     elif conf == "low":
