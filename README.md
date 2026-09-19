@@ -1,4 +1,4 @@
-# wafscan v2
+# wafscan 
 
 A modular, curl-driven security testing scanner: recon, auth/session checks,
 HTTP method testing, WAF/firewall fingerprinting, and blind-SSRF probing —
@@ -7,7 +7,7 @@ status codes in isolation.
 
 **Only run this against systems you are authorized to test.**
 
-## What's new in v2
+## Features
 
 - Concurrent path probing (`--threads`)
 - Stronger baselining (content-hash + consistency warnings + optional known path)
@@ -51,16 +51,19 @@ systems you own, or have explicit written authorization to test**.
 ## Install (Kali Linux)
 
 ```bash
-unzip wafscan-improved.zip && cd wafscan-improved
+git clone https://github.com/Ravi-Cyberwarrior/wafscan-toolkit.git
+cd wafscan-toolkit
+chmod +x install.sh
 sudo ./install.sh
 ```
 
 Or run directly without installing:
 
 ```bash
+git clone https://github.com/Ravi-Cyberwarrior/wafscan-toolkit.git
+cd wafscan-toolkit
 python3 main.py https://target.example
 ```
-
 ## Usage examples
 
 ```bash
