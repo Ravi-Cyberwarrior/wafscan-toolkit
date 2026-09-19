@@ -6,7 +6,11 @@ built to cut down false positives via baselining rather than trusting raw
 status codes in isolation.
 
 **Only run this against systems you are authorized to test.**
-<img width="292" height="155" alt="Screenshot 2026-09-19 115248" src="https://github.com/user-attachments/assets/93de6e69-cf7b-42ff-85d0-ef8325bd6a45" /> 
+
+
+<img width="565" height="355" alt="Image" src="https://github.com/user-attachments/assets/93de6e69-cf7b-42ff-85d0-ef8325bd6a45" /> 
+
+
 ## Features
 
 - Concurrent path probing (`--threads`)
